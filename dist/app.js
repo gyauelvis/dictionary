@@ -12,7 +12,7 @@ let loading = ()=>{
 
 let page404 = ()=>{
 	document.getElementById("tainer").innerHTML  = `
-		<div class="bg-slate-600 w-11/12 rounded-lg h-[50vh] flex justify-center items-center flex-col font-poppins">
+		<div class="bg-slate-600 w-11/12 md:w-8/12 lg:w-5/12  rounded-lg h-[50vh] flex justify-center items-center flex-col font-poppins">
 			<span class="text-9xl text-gray-200">404</span>
 			<span class="text-gray-200 pt-3 text-2xl">Word not Found</span>
 		</div>
@@ -21,7 +21,7 @@ let page404 = ()=>{
 
 let renderData = (data)=>{
 	document.getElementById("tainer").innerHTML  =
-	`<div class="definition-container bg-slate-600 w-11/12 h-[25rem] rounded-lg">
+	`<div class="definition-container bg-slate-600 w-11/12 md:w-8/12 lg:w-5/12 h-[25rem] rounded-lg">
 		
 		<div class="phonetics_word">
 			<div class="flex flex-col justify-center px-5 text-gray-300">

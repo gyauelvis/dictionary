@@ -817,3 +817,19 @@ video {
   outline-color: #e5e7eb;
 }
 
+@media (min-width: 768px) {
+  .md\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .md\:w-8\/12 {
+    width: 66.666667%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-5\/12 {
+    width: 41.666667%;
+  }
+}
+

@@ -20,7 +20,7 @@ Or you have a network problem. Built this when learning the about the Javascript
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [TailwindCSS](https://tailwindcss.com) - Database
-- [HTML](https://developer.mozilla.org/) - Server Framework
-- [CSS](https://developer.mozilla.org/) - Web Framework
+- [TailwindCSS](https://tailwindcss.com) - STYLESHEET
+- [HTML](https://developer.mozilla.org/) - MARK UP
+- [JAVASCRIPT](https://developer.mozilla.org/) - FUNCTIONALITY
 

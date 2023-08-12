@@ -567,28 +567,20 @@ video {
   height: 5rem;
 }
 
+.h-\[120vh\] {
+  height: 120vh;
+}
+
 .h-\[25rem\] {
   height: 25rem;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-\[calc\(80vh\)\] {
-  height: calc(80vh);
-}
-
-.h-\[\(50vh\)\] {
-  height: (50vh);
-}
-
 .h-\[50vh\] {
   height: 50vh;
+}
+
+.h-\[auto\] {
+  height: auto;
 }
 
 .w-11\/12 {
@@ -697,12 +689,12 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .font-poppins {
@@ -719,6 +711,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -732,21 +729,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -818,8 +800,8 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:w-5\/12 {
-    width: 41.666667%;
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:w-8\/12 {
